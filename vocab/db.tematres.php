@@ -30,17 +30,17 @@
 $DBCFG["DBdriver"] ="";
 
 /** Dirección IP o nombre del servidor - IP Address of the database server */
-$DBCFG["Server"]      = "localhost";
+$DBCFG["Server"]      = "${DB_HOST}";
 
 
 /** Nombre de la base de datos Database name */
-$DBCFG["DBName"]     = "tematres";
+$DBCFG["DBName"]     = "${DB_NAME}";
 
 /** Nombre de usuario - login */
-$DBCFG["DBLogin"]    = "root";
+$DBCFG["DBLogin"]    = "${DB_USERNAME}";
 
 /** Passwords */
-$DBCFG["DBPass"] = "pass";
+$DBCFG["DBPass"] = "${DB_PASSWORD}";
 
 /** Prefijo para tablas # Prefix for tables */
 $DBCFG["DBprefix"] = "lc_";
